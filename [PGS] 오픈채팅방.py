@@ -1,4 +1,5 @@
 # [프로그래머스] 오픈채팅방 Lv.2
+# https://school.programmers.co.kr/learn/courses/30/lessons/42888
 
 # 문제 설명
 # 오픈채팅방

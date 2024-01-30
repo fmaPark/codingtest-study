@@ -1,4 +1,5 @@
 # [프로그래머스] 영어 끝말잇기 Lv.2
+# https://school.programmers.co.kr/learn/courses/30/lessons/12981
 
 # 문제 설명
 # 1부터 n까지 번호가 붙어있는 n명의 사람이 영어 끝말잇기를 하고 있습니다. 영어 끝말잇기는 다음과 같은 규칙으로 진행됩니다.
