@@ -1,2 +1,0 @@
-# codingtest-study
-codingtest-study
