@@ -1,6 +1,3 @@
-
-
-
 # bfs 활용 문제
 
 from collections import deque
