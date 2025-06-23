@@ -42,3 +42,5 @@ int main(void) {
 
     return 0;
 }
+
+// iterator 커서 선언해서 입력 그대로 적용
