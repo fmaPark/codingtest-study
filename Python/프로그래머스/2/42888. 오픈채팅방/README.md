@@ -1,7 +1,8 @@
-# [프로그래머스] 오픈채팅방 Lv.2
-https://school.programmers.co.kr/learn/courses/30/lessons/42888
+# [level 2] 오픈채팅방 - 42888 
 
-## 문제 설명
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42888) 
+
+### 문제 설명
 
 카카오톡 오픈채팅방에서는 친구가 아닌 사람들과 대화를 할 수 있는데, 본래 닉네임이 아닌 가상의 닉네임을 사용하여 채팅방에 들어갈 수 있다.
 
