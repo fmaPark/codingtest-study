@@ -1,24 +1,19 @@
 function solution(array) {
-    const counter = new Map();
-
-    for (const num of array) {
-        counter.set(num, (counter.get(num) ?? 0) + 1)
+    // map으로 숫자, 빈도를 Key value로 세팅
+    // 최빈값의 빈도를 추출
+    // 그 빈도에 해당하는 키를 추출해서 리턴
+    
+    const m = new Map();
+    for (let num of array) {
+        m.set(num, (m.get(num) || 0) +1)
     }
     
-    const counts = [...counter.values()];
-    const maxCount = Math.max(...counts);
-    
-    let numlist = []
-    for (const [num, cnt] of counter) {
-        if (cnt === maxCount) {
-            numlist.push(num)
-        }
+    const maxCount = Math.max(...m.values())
+    const maxList = []
+    for (let [k, v] of m) {
+        if (v === maxCount) maxList.push(k)
     }
     
-    if (numlist.length !== 1) {
-        return -1
-    } else {
-        return numlist[0]
-    }
-    
+    if (maxList.length !== 1) return -1;
+    return maxList[0]
 }
