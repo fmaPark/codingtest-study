@@ -1,10 +1,5 @@
-function solution(n)
-{
-    var answer = 0;
-
-    for (let c of String(n)) {
-        answer += Number(c)
-    }
-
-    return answer;
+function solution(n) {
+    return String(n).split('').reduce((acc, c) => {
+        return acc + Number(c)
+    }, 0);
 }
