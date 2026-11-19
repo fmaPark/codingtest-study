@@ -33,53 +33,10 @@ def solution(m, n, board):
             for r in range(0, m):
                 if board[r][c] != 'X':
                     lst.append(board[r][c])
-            # print('---')
             lst = ['X'] * (m-len(lst)) + lst
-            # print(lst)
             for i in range(0, m):
                 new_board[i][c] = lst[i]
         
         board = new_board
 
     return cnt
-
-
-# TTTANT
-# RRFACC
-# RRRFCC
-# TRRRAA
-# TTMMMF
-# TMMTTJ
-
-
-# TTTANT
-# XXFAXX
-# XXXFXX
-# TXXRAA
-# TTMMMF
-# TMMTTJ
-
-
-# CCBDE
-# AADDE
-# AADDF
-# CCBBF
-
-# CCBDE
-# XXXXE
-# XXXXF
-# CCBBF
-
-# -> 8
-
-# XXXXE
-# XXXXE
-# CCBDF
-# CCBBF
-
-# XXXXE
-# XXXXE
-# XXBDF
-# XXBBF
-
-# -> 12
