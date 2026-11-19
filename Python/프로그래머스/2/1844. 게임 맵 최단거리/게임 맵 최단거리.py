@@ -16,15 +16,12 @@ def solution(maps):
     
     while q:
         r, c, n = q.popleft()
-        print("방문: ", r, c, n)
         
         if r == W-1 and c == H-1:
             cnt = max(n+1, cnt)
-            print(cnt)
         for dr, dc in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
             nr, nc, nn = r + dr, c + dc, n + 1
             if 0 <= nr < W and 0 <= nc < H and not visited[nr][nc] and not maps[nr][nc] == 0:
-                # print("다음 방문:", nr, nc)
                 visited[nr][nc] = True
                 q.append((nr, nc, nn))
         
