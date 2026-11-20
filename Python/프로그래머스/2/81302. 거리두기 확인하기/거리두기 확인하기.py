@@ -4,9 +4,6 @@ def solution(places):
     # 상하좌우 2칸 이내일 경우 그사이에 칸막이가 있으면 ok
     # 대각선에 있을 경우 그 방향 양옆에 칸막이가 있어야 함
     
-    ROWS = len(places)
-    COLS = len(places[0])
-    
     answer = []
     
     for place in places:
